@@ -66,11 +66,13 @@ h4 {
 }
 
 .money.plus {
-  color: #2ecc71;
+  color: #1c8e4c;
+  font-weight: bold;
 }
 
 .money.minus {
-  color: #c0392b;
+  color: #9e2e21;
+  font-weight: bold;
 }
 
 label {
@@ -124,16 +126,16 @@ input[type='number'] {
 }
 
 .list li.plus {
-  border-right: 5px solid #2ecc71;
+  border-right: 5px solid #1c8e4c;
 }
 
 .list li.minus {
-  border-right: 5px solid #c0392b;
+  border-right: 5px solid #9e2e21;
 }
 
 .delete-btn {
   cursor: pointer;
-  background-color: #e74c3c;
+  background-color: #9e2e21;
   border: 0;
   color: #fff;
   font-size: 20px;
