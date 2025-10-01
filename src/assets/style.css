@@ -154,3 +154,7 @@ input[type='number'] {
 input {
   background-color: #b9cef6;
 }
+
+input::placeholder{
+  color: black;
+}
