@@ -4,7 +4,8 @@
         <li v-for="transaction in transactions"
         :key="transaction.id" :class="transaction.amount < 0 ? 'minus' : 'plus'">
              {{ transaction.text }} <span>${{ transaction.amount }}</span>
-            <button @click="deleteTransaction(transaction.id)" class="delete-btn">x</button>
+            <button @click="deleteTransaction(transaction.id)"
+             class="delete-btn">x</button>
         </li>
     </ul>
 </template>
@@ -16,7 +17,7 @@
         transactions: {
         type: Array,
         required: true
-    }
+    },
   });
 
 const deleteTransaction = (id) => {
